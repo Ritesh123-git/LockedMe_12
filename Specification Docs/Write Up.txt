@@ -1,0 +1,30 @@
+Steps Involved in creating this project.
+
+1- I have divided my project into four section, first one--LockedMeMain file from where my program execute, second--File Operations which contain all the operation 
+which we have to perform in a file 3rd one--HandleOptions file which we decide according to our input which operation to be get called and what operation to be 
+performed 4th one- MenuOptions which will contain all the respective method through we will accomplish our task that we have to perform on a file.
+
+2- In the LockedMeMain file Calling the three mathod which we create a folder in the main directory, print the name of the developer and the third one will take us
+to the welcome screen and will decide which respective operation we have to perform.
+
+3- In the welcomescreenInput we set the boolean true so the switch case may execute till the user want to exit the application. And in the method 3 cases we will run,
+the first one is displayAllfiles, the 2nd one is HandleFileMenuOptions which will run another Switch case which will contain 5 Cases, the 1st one is Adding a file to 
+the main folder, deleting a file from the main folder, searching a file from the main folder, showing a previous menu, and the last one is exiting from a program.
+
+4- We have created methods like printWelcomeScreen, displaymenu, displayFileMenuOptions in MenuOption.java file.
+
+5-We have created methods like displayAllFiles, listFilesInDirectory to set the file in ascending order, createFile, displayFileLocations, searchFileRecursively, 
+deleteFileRecursively.
+
+6- Through this 5 Basic structure steps we can achieve our functionalities which the project required to complete it requirement.
+
+
+
+Coding Steps for the completion of the Project----
+
+1- Creating the project in Eclipse
+2- Writing a program in Java for the entry point of the application (LockedMeMain.java)
+3- Writing a program in Java to display Menu options available for the user (MenuOptions.java)
+4- Writing a program in Java to handle Menu options selected by user (HandleOptions.java)
+5- Writing a program in Java to perform the File operations as specified by user (FileOperations.java)
+6- Pushing the code to GitHub repository
